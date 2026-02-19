@@ -1,0 +1,38 @@
+{
+  "name": "evm-rwa-treasury-tokenization",
+  "version": "1.0.0",
+  "description": "RWA Treasury Tokenization Protocol inspired by Ondo Finance OUSG",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify": "hardhat verify --network sepolia",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "rwa",
+    "treasury",
+    "tokenization",
+    "ondo",
+    "ousg",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {}
+}
